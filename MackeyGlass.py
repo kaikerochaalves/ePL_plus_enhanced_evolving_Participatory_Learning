@@ -93,12 +93,12 @@ plt.show()
 
 # Setting the hyperparameters
 alpha = 0.001
-beta = 0.01
-lambda1 = 0.001
-omega = 50
+beta = 0.001
+lambda1 = 0.75
+omega = 10000
 sigma = 0.1
 e_Utility = 0.03 # [0.03, 0.1]
-pi = 0.3 # [0.3, 0.5]
+pi = 0.5 # [0.3, 0.5]
 
 # Initializing the model
 model = ePL_plus(alpha = alpha, beta = beta, lambda1 = lambda1, tau = beta, omega = omega, sigma = sigma, e_Utility = e_Utility, pi = pi)

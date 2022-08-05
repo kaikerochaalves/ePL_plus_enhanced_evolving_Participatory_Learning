@@ -57,12 +57,13 @@ def Normalize_Data(data):
 
 
 # Setting the range of hyperparameters
-l_alpha = [0.001, 0.01, 0.1, 0.5, 0.9]
-l_beta = [0.001, 0.005, 0.01, 0.05, 0.1, 0.2]
-l_lambda1 = [0.001, 0.005, 0.01, 0.05, 0.1, 0.25]
+l_alpha = [0.001, 0.01, 0.1]
+l_beta = [0.001, 0.01, 0.1, 0.25]
+#l_lambda1 = [0.001, 0.005, 0.01, 0.05, 0.1, 0.25]
+l_lambda1 = [0.25, 0.5, 0.75]
 l_omega = [50, 100, 1000, 10000]
-l_sigma = [0.1, 0.25, 0.5, 0.75, 1.]
-l_e_Utility = [0.03, 0.05, 0.07, 0.1]
+l_sigma = [0.1, 0.25, 0.5]
+l_e_Utility = [0.03, 0.05]
 l_pi = [0.3, 0.5]
 
 #-----------------------------------------------------------------------------
@@ -103,15 +104,6 @@ Normalized_y_train, Normalized_y_test = Normalized_y[201:3201,:], Normalized_y[5
 #-----------------------------------------------------------------------------
 # Executing the Grid-Search for the Mackey-Glass time series
 #-----------------------------------------------------------------------------
-
-# Setting the range of hyperparameters
-l_alpha = [0.001, 0.01, 0.1, 0.5, 0.9]
-l_beta = [0.001, 0.005, 0.01, 0.05, 0.1, 0.2]
-l_lambda1 = [0.001, 0.005, 0.01, 0.05, 0.1, 0.25]
-l_omega = [50, 100, 1000, 10000]
-l_sigma = [0.1, 0.25, 0.5, 0.75, 1.]
-l_e_Utility = [0.03, 0.05, 0.07, 0.1]
-l_pi = [0.3, 0.5]
 
 simul = 0
 # Creating the DataFrame to store results

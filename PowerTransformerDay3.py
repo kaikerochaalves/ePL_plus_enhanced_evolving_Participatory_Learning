@@ -63,13 +63,13 @@ Normalized_y_train, Normalized_y_test = Normalized_y[:training_size], Normalized
 #-----------------------------------------------------------------------------
 
 # Setting the hyperparameters
-alpha = 0.001
-beta = 0.001
-lambda1 = 0.5
-omega = 50
+alpha = 0.1
+beta = 0.1
+lambda1 = 0.25
+omega = 10000
 sigma = 0.1
-e_Utility = 0.05 # [0.03, 0.1]
-pi = 0.5 # [0.3, 0.5]
+e_Utility = 0.03 # [0.03, 0.1]
+pi = 0.3 # [0.3, 0.5]
 
 # Initializing the model
 model = ePL_plus(alpha = alpha, beta = beta, lambda1 = lambda1, tau = beta, omega = omega, sigma = sigma, e_Utility = e_Utility, pi = pi)

@@ -80,12 +80,12 @@ plt.show()
 #-----------------------------------------------------------------------------
 
 # Setting the hyperparameters
-alpha = 0.001
-beta = 0.001
-lambda1 = 0.5
-omega = 50
+alpha = 0.01
+beta = 0.1
+lambda1 = 0.75
+omega = 10000
 sigma = 0.1
-e_Utility = 0.05 # [0.03, 0.1]
+e_Utility = 0.03 # [0.03, 0.1]
 pi = 0.5 # [0.3, 0.5]
 
 # Initializing the model
