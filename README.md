@@ -24,6 +24,8 @@ The paper [2] has a complete review of the eFSs.
 
 - PowerTransformerDay3.py (https://github.com/kaikerochaalves/ePL_plus_enhanced_evolving_Participatory_Learning/blob/1ba26c04fe178dcf6754b20fae52ad3e087a1a17/PowerTransformerDay3.py) is the script to prepare the dataset of the power transformers on day 3, perform simulations, compute the results and plot the graphics.
 
+- PowerTransformerAllDays.py(https://github.com/kaikerochaalves/eTS-evolving-Takagi-Sugeno/blob/3f0f3762e0990496820617da608a7e77767e8966/PowerTransformerAllDays.py) is the script to prepare the dataset of the power transformers on day 1 to train the model, and days 2 and 3 to perform simulations, compute the results and plot the graphics.
+
 - GridSearch_AllDatasets.py (https://github.com/kaikerochaalves/ePL_plus_enhanced_evolving_Participatory_Learning/blob/1ba26c04fe178dcf6754b20fae52ad3e087a1a17/GridSearch_AllDatasets.py) is the script performing a grid search for the hyperparameters for all datasets.
 
 [1] L. Maciel, F. Gomide, R. Ballini, An enhanced approach for evolving Participatory Learning fuzzy modeling, in: 2012 IEEE Conference on Evolving and Adaptive Intelligent Systems, IEEE, 2012, pp. 23–28, http://dx.doi.org/10.1109/eais.2012.6232799.
