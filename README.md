@@ -30,4 +30,4 @@ The paper [2] has a complete review of the eFSs.
 
 [1] L. Maciel, F. Gomide, R. Ballini, An enhanced approach for evolving Participatory Learning fuzzy modeling, in: 2012 IEEE Conference on Evolving and Adaptive Intelligent Systems, IEEE, 2012, pp. 23–28, http://dx.doi.org/10.1109/eais.2012.6232799.
 
-[2] K.S.T.R. Alves, E. P. Aguiar, A novel rule-based evolving Fuzzy System applied to the thermal modeling of power transformers. Appl. Soft Comput. 112 (2021) 107764-107764, https://doi.org/10.1016/j.asoc.2021.
+[2] K.S.T.R. Alves, E. P. Aguiar, A novel rule-based evolving Fuzzy System applied to the thermal modeling of power transformers. Appl. Soft Comput. 112 (2021) 107764-107764, https://doi.org/10.1016/j.asoc.2021.107764.
